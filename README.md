@@ -1,9 +1,9 @@
-# _Weather App_
+# _Solo-project-6_
 
 
 #### By _Mitchell Gantz_
 
-#### _This project demonstrates basic API setup_
+#### _This project demonstrates basic API setup and usage._
 
 ## Technologies Used
 
@@ -13,7 +13,7 @@
 - _Webpack_
 - _eslint_
 - _babel_
-- _Open Weather API_
+- _API_
 
 
 ## Description
@@ -33,7 +33,7 @@ _Lesson prompt:_ https://www.learnhowtoprogram.com/intermediate-javascript/async
 - _npm run start to build and launch server_
 - _proceed to update files to reflect new project_
 
-### Setup/Installation for using Open Weather API
+### Setup/Installation for using  API
 - _Sign up for an account, and sign in._
 - _Once you are signed in, click on the API keys tab._
 - _Locate the API key called Default. You'll use this key in every request you make to the OpenWeather API._

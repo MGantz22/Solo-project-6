@@ -1,18 +1,16 @@
 export default class ExchangeService {
-  static getExchange() {
-    return new Promise(function(resolve,reject){
-      let request = new XMLHttpRequest();
-      const url = `https://v6.exchangerate-api.com/v6/${process.env.API_KEY}/latest/USD`;
-      request.addEventListener("loadend", function() {
-        const responce = JSON.parse(this.responseText);
-        if (this.status === 200) {
-          resolve([responce]);
-        } else {
-          reject([this,responce]);
-        }
-      });
-      request.open("GET", url, true);
-      request.send();
-    });
+  static async exchangeMoney(currencyIn, currencyOut, amount) {
+    try {
+      const response = await fetch(`https://v6.exchangerate-api.com/v6/${process.env.API_KEY}/pair/${currencyIn}/${currencyOut}/${amount}`);
+      const jsonResponse = await response.json();
+      if (!response.ok) {
+        const errorMessage = `${response.status} ${response.statusText}
+        ${jsonResponse.message}`;
+        throw new Error(errorMessage);
+      }
+      return jsonResponse;
+    } catch(error) {
+      return error;
+    }
   }
 }

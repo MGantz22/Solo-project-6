@@ -32,7 +32,7 @@ _Lesson prompt:_ https://www.learnhowtoprogram.com/intermediate-javascript/async
 - _Update README.md with correct project information_
 - _Ensure proper files are disallowed in .gitignore_
 - _Git init a new local directory and create a new repository in github_
-- _Run npm install_
+- _Run `npm install`_
 - _Npm run start to build and launch server_
 - _Proceed to update files to reflect new project_
 
@@ -44,16 +44,16 @@ _Lesson prompt:_ https://www.learnhowtoprogram.com/intermediate-javascript/async
 - _Locate the API key called Active. You'll use this key in every request you make to the ExchangeRate-API._
 - _Add .env file to .gitignore, commit and push (before touching .env)._
 - _Touch .env and add API _ KEY=[YOUR API KEY], replacing brackets with your individual key and removing any spaces._
-- _Install all packages with $ npm install_
-- _Build the project using $ npm run build_
-- _Start a live server with $ npm run start_
+- _Install all packages with $ `npm install`_
+- _Build the project using $ `npm run build`_
+- _Start a live server with $ `npm run start`_
 
 ## Known Bugs
 
 - _Prints 404 error and not custom error message_
 - _If you find additional bugs not listed here, please email me at mgantz22@icloud.com with the subject_ **[_Repo Name_] Bug** _and include:_
-  - _BUG: _A brief description of the bug_
-  - _FIX: _Suggestion for solution (if you have one!)_
+  - BUG: _A brief description of the bug_
+  - FIX: _Suggestion for solution (if you have one!)_
 - _If you'd like to be credited, please also include your_ **_github user profile link_**
 
 ## Future implementations

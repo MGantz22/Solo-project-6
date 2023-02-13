@@ -1,0 +1,50 @@
+<html lang="en-US">
+<head>
+  <title>Currency Exchange</title>
+</head>
+<body>
+  <div class="container">
+    <h1>Currency Exchange Rates</h1>
+    <p>Select the currency you have and a currency you'd like changed to.</p>
+    <form>
+      <label for="amount">Please enter an amount you would like to exchange?</label>
+      <input id="amount" type="text"><br>
+      <br>
+      <lable for="currencyIn">Current Currency:</lable>
+      <select id="currencyIn" name="currencyIn">
+        <option value="USD">USD - US Dollar</option>
+        <option value="EUR">EUR - Euro</option>
+        <option value="JPY">JPY - Japanese Yen</option>
+        <option value="GBP">GBP - Pound Sterling</option>
+        <option value="CNY">CNY - Chinese Renminbi</option>
+        <option value="AUD">AUD - Austrailian Dollar</option>
+        <option value="CAD">CAD - Canadian Dollar</option>
+        <option value="CHF">CHF - Swiss Franc</option>
+        <option value="HKD">HKD - Hong Kong Dollar</option>
+        <option value="SGD">SGD - Singapore Dollar</option>
+        <option value="NZD">NZD - New Zealand Dollar</option>
+        <option value="MRG">MRG - Gantz Dollar</option>
+      </select><br>
+      <br>
+      <label for="currencyOut">Exchage to:</label>
+      <select name="currencyOut" id="currencyOut">
+        <option value="USD">USD - US Dollar</option>
+        <option value="EUR">EUR - Euro</option>
+        <option value="JYP">JYP - Japanese Yen</option>
+        <option value="GBP">GBP - Pound Sterling</option>
+        <option value="CNY">CNY - Chinese Renminbi</option>
+        <option value="AUD">AUD - Austrailian Dollar</option>
+        <option value="CAD">CAD - Canadian Dollar</option>
+        <option value="CHF">CHF - Swiss Franc</option>
+        <option value="HKD">HKD - Hong Kong Dollar</option>
+        <option value="SGD">SGD - Singapore Dollar</option>
+        <option value="NZD">NZD - New Zealand Dollar</option>
+        <option value="MRG">MRG - Gantz Dollar</option>
+      </select>
+      <button type="submit" class="btn-success">Press to Calculate Exchange Rate</button>
+    </form>
+    <p id="showResponse"></p>
+    <p>Made possible by using <a href="https://www.exchangerate-api.com">ExchangeRate-API</a></p>
+  </div>
+<script src="output.js"></script></body>
+</html>

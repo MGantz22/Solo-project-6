@@ -25,23 +25,14 @@
 
 _Lesson prompt:_ https://www.learnhowtoprogram.com/intermediate-javascript/asynchrony-and-apis/openweather-api-giphy-api
 
-## Setup/Installation Requirements
+### Setup/Installation Requirements for using ExchangeRate-API
 
 - _Clone or download this repo to your local repository_
-- _Update titles in package.json and webpack.config.js to reflect new project title_
-- _Update README.md with correct project information_
-- _Ensure proper files are disallowed in .gitignore_
-- _Git init a new local directory and create a new repository in github_
-- _Run `npm install`_
-- _Npm run start to build and launch server_
-- _Proceed to update files to reflect new project_
-
-### Setup/Installation for using ExchangeRate-API
-
 - _Visit [Exchangerate-Api](https://www.exchangerate-api.com/)_
 - _Sign up for an account and free API key, and sign in._
 - _Once you are signed in, API key should be displayed on Dashboard, if not click on the API keys tab._
 - _Locate the API key called Active. You'll use this key in every request you make to the ExchangeRate-API._
+- _Install all packages with $ `npm install`_
 - _Add .env file to .gitignore, commit and push (before touching .env)._
 - _Touch .env and add API _ KEY=[YOUR API KEY], replacing brackets with your individual key and removing any spaces._
 - _Install all packages with $ `npm install`_
@@ -59,6 +50,21 @@ _Lesson prompt:_ https://www.learnhowtoprogram.com/intermediate-javascript/async
 ## Future implementations
 
 ## License
-_MIT_
+_MIT License_
 
 Copyright (c) _2023_  _Mitchell Gantz_
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, 
+INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR 
+PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS 
+BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT,
+TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE
+OR OTHER DEALINGS IN THE SOFTWARE.

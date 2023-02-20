@@ -1,7 +1,7 @@
 # _Currency Exchange_
 
 
-#### By _Mitchell Gantz_
+#### By: _Mitchell Gantz_
 
 #### _A code review project for basic API setup and calls._
 
@@ -23,16 +23,15 @@
 - _If the API call results in an error (any message not a 200 OK), the application should return a notification to the user that states what the error is. (That means the error should show up in the DOM, not in the console.)_
 - _If the query response doesn't include that particular currency, the application should return a notification that states the currency in question doesn't exist. (Note: Even if you use a dropdown menu to specify currencies instead of a form field, you'll still need to add this functionality to your code.)_
 
-_Lesson prompt:_ https://www.learnhowtoprogram.com/intermediate-javascript/asynchrony-and-apis/openweather-api-giphy-api
+- _Lesson prompt: https://www.learnhowtoprogram.com/intermediate-javascript/asynchrony-and-apis/openweather-api-giphy-api
 
-### Setup/Installation Requirements for using ExchangeRate-API
+## Setup/Installation Requirements for using ExchangeRate-API
 
 - _Clone or download this repo to your local repository_
 - _Visit [Exchangerate-Api](https://www.exchangerate-api.com/)_
 - _Sign up for an account and free API key, and sign in._
 - _Once you are signed in, API key should be displayed on Dashboard, if not click on the API keys tab._
 - _Locate the API key called Active. You'll use this key in every request you make to the ExchangeRate-API._
-- _Install all packages with $ `npm install`_
 - _Add .env file to .gitignore, commit and push (before touching .env)._
 - _Touch .env and add API _ KEY=[YOUR API KEY], replacing brackets with your individual key and removing any spaces._
 - _Install all packages with $ `npm install`_
@@ -49,7 +48,12 @@ _Lesson prompt:_ https://www.learnhowtoprogram.com/intermediate-javascript/async
 
 ## Future implementations
 
+- _Backround images_
+- _Interactive site_
+- _Button sounds_
+
 ## License
+
 _MIT License_
 
 Copyright (c) _2023_  _Mitchell Gantz_

@@ -1,8 +1,8 @@
 {
-  "name": "Solo-project-6",
+  "name": "solo-project-6",
   "version": "1.0.0",
   "repository": {
-    "url": "git+https://github.com/MGantz22/Solo-project-6.git"
+    "url": "git+https://github.com/mgantz22/solo-project-6.git"
   },
   "description": "",
   "main": "index.js",
